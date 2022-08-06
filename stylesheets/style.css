@@ -36,7 +36,8 @@ p {
 }
 
 .header {
-    background-color: white;
+    background: rgba(0, 0, 0, 0);
+    /* background-color: white; */
     color: black;
     padding: 2rem 0;
 
@@ -60,18 +61,18 @@ p {
 }
 
 .logo {
-    letter-spacing: 20px;
-    font-size: 2em;
+    width: 20%;
+/*  letter-spacing: 20px;
+    font-size: 2em; */
 }
 
 .menu-icon {
     display: none;
 }
 
+/*
 .navigation ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+    display: none;
 }
 
  .navigation ul li {
@@ -86,7 +87,7 @@ p {
 
                 .navigation ul li a:hover {
                     background-color: #4a4a4a;
-                }
+                }   */
 
 .main {
     padding-top: 12rem;
@@ -99,7 +100,7 @@ p {
     margin-top: 6rem;
 }
 
-@media only screen and (max-width: 825px) {
+/* @media only screen and (max-width: 825px) {  */
 
     .menu-icon {
             display: block;
@@ -134,4 +135,9 @@ p {
             background-color: #4a4a4a;
         }
 
+
+@media only screen and (max-width: 900px) {
+    .main{
+        padding-top: 0;
+    }
 }
